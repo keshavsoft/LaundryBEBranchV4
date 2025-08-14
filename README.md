@@ -270,3 +270,7 @@ backend : bin
 database : KData
 
 frontend : publicDir/bin
+
+- 0.0.3
+
+binV5Secured config changed

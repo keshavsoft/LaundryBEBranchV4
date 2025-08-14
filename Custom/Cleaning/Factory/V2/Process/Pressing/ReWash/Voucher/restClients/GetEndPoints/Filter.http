@@ -1,3 +1,0 @@
-
-###Get all the rows from the database in this table
-GET  http://localhost:7318/Custom/Cleaning/Factory/V2/Process/Pressing/ReWash/Voucher/Filter/Vizag/18-03-2025/19-03-2025  

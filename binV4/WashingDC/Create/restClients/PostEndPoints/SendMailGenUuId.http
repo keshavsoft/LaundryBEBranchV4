@@ -1,4 +1,0 @@
-POST http://localhost:7318/binV4/WashingDC/Create
-Content-Type: application/json
-
-{"Description":"","FactoryName":""}

@@ -5,7 +5,7 @@ import { router as routerFromLogin } from "./Login/routes.js";
 
 import { router as Cors } from "./Cors/routes.js";
 
-import { router as routerFromBinV5Secured } from "./binV5Secured/routes.js";
+// import { router as routerFromBinV5Secured } from "./binV5Secured/routes.js";
 import { router as routerFromBinV4 } from "./binV4/routes.js";
 
 import { StartFunc as StartFuncPortListen } from "./PortListen.js";
@@ -50,7 +50,7 @@ const CommonCorsFunc = (req, res, next) => {
 };
 
 app.use('/binV4', routerFromBinV4);
-app.use('/binV5Secured', MiddleWaresBinSecured, routerFromBinV5Secured);
+// app.use('/binV5Secured', MiddleWaresBinSecured, routerFromBinV5Secured);
 
 app.use('/utility', routerForUtility);
 app.use('/Common', routerFromCommon);

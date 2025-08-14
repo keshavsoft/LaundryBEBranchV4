@@ -1,4 +1,0 @@
-POST http://localhost:7318/binV4/BranOrdersNGGOS/Create
-Content-Type: application/json
-
-{}

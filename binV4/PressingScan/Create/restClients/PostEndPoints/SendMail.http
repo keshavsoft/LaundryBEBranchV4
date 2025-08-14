@@ -1,4 +1,0 @@
-POST http://localhost:7318/binV4/PressingScan/Create/SendMail
-Content-Type: application/json
-
-{"QrCodeId":0,"ItemName":"","Rate":0,"FactorySelected":"","VoucherRef":0,"BranchName":"","VoucherNumber":0,"DCFactory":"","DCDescription":"","OrderNumber":0}

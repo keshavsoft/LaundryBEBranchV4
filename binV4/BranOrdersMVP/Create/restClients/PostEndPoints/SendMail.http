@@ -1,4 +1,0 @@
-POST http://localhost:7318/binV4/BranOrdersMVP/Create/SendMail
-Content-Type: application/json
-
-{}

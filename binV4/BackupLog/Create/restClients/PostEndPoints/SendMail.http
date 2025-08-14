@@ -1,4 +1,0 @@
-POST http://localhost:7318/binV4/BackupLog/Create/SendMail
-Content-Type: application/json
-
-{"Description":"","Factory":"","BranchName":""}

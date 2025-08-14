@@ -1,4 +1,4 @@
-POST http://localhost:7318/binV5Secured/QrCodes/Create/SendMail
+POST http://localhost:7318/binV4/BranOrdersKKD/Create/SendMail
 Content-Type: application/json
 
-{"ItemSerial":0,"Category":"","ItemName":"","location":"","Pcs":0,"Rate":0,"DisPer":0,"Total":0,"OrderNumber":0}
+{}

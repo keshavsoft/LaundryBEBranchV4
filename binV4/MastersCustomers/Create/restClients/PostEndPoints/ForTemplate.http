@@ -1,4 +1,4 @@
-POST http://localhost:7318/binV4/MastersCustomers/Create
+POST http://localhost:7318/binV4/BranOrdersKKD/Create
 Content-Type: application/json
 
-{"CustomerName":"","Mobile":0,"GSTNumber":"","City":"","Occupation":"","CompanyName":"","BranchName":""}
+{}

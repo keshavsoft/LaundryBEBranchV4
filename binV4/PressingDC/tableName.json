@@ -1,1 +1,0 @@
-{"tableName":"PressingDC.json","ColumnsSchema":{"Date":{"type":"DATE","allowNull":true},"Description":{"type":"STRING","allowNull":true},"FactoryName":{"type":"STRING","allowNull":true}}}

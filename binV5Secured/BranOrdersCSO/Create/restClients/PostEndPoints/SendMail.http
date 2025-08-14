@@ -1,0 +1,4 @@
+POST http://localhost:7318/binV5Secured/BranOrdersCSO/Create/SendMail
+Content-Type: application/json
+
+{}

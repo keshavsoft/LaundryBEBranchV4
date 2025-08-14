@@ -1,0 +1,4 @@
+POST http://localhost:7318/binV5Secured/BranOrdersGD/Create
+Content-Type: application/json
+
+{}

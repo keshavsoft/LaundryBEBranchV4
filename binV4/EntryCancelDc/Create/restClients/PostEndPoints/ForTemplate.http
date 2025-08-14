@@ -1,0 +1,4 @@
+POST http://localhost:7318/binV4/EntryCancelDc/Create
+Content-Type: application/json
+
+{"Description":"","BranchName":""}

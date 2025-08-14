@@ -1,0 +1,4 @@
+POST http://localhost:7318/binV4/MastersItems/Create/SendMail
+Content-Type: application/json
+
+{"Category":"","ItemName":"","Pcs":0,"WashType":"","DryWashRate":0}

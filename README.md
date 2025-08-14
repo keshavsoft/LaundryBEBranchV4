@@ -274,3 +274,7 @@ frontend : publicDir/bin
 - 0.0.3
 
 binV5Secured config changed
+
+- 0.0.4
+
+qrcodes generated with new ui in v2

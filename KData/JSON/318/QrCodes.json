@@ -53,5 +53,60 @@
     "UuId": 1,
     "pk": 1,
     "DateTime": "2025-08-14T05:51:00.538Z"
+  },
+  {
+    "GenerateReference": {
+      "ReferncePk": "4"
+    },
+    "Category": "Men",
+    "ItemName": "Men SHIRTE DW",
+    "ItemType": "SHIRTE",
+    "Rate": "60",
+    "Pcs": "1",
+    "Total": 60,
+    "location": "Vizag",
+    "DeliveryDateTime": "2025-08-21",
+    "ItemService": "DW",
+    "AddOnArray": [],
+    "BookingData": {
+      "CustomerData": {
+        "CustomerName": "Keshav",
+        "Mobile": "9848163021",
+        "DOB": "",
+        "GSTNumber": "",
+        "City": "",
+        "Occupation": "",
+        "CompanyName": "",
+        "BranchName": "KKD",
+        "UuId": 1,
+        "pk": 1,
+        "DateTime": "2025-08-14T05:50:48.538Z",
+        "CustomerMobile": "9848163021"
+      },
+      "OrderData": {
+        "BranchName": "KKD",
+        "Currentdateandtime": "2025-08-14T09:20:32.538Z"
+      },
+      "AddOnData": {},
+      "CheckOutData": {
+        "1": {
+          "RoundOff": 0.2,
+          "CashAmount": 71,
+          "CardAmount": 0,
+          "UPIAmount": 0,
+          "DiscountPer": 0,
+          "GstData": {
+            "DiscountAmount": 0,
+            "CGST": 5.4,
+            "SGST": 5.4
+          }
+        }
+      }
+    },
+    "OrderNumber": 4,
+    "OrderUuId": "deb259f8-256a-4c35-3add-f97f3e61b57c",
+    "UuId": 2,
+    "pk": 2,
+    "DateTime": "2025-08-14T09:29:21.579Z"
   }
 ]

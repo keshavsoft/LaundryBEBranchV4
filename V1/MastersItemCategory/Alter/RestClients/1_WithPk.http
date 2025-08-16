@@ -1,0 +1,6 @@
+POST http://localhost:3000/V1/MastersItemCategory/Alter/WithPk/{pk}
+Content-Type: application/json
+
+{
+  "ItemCategory": ""
+}

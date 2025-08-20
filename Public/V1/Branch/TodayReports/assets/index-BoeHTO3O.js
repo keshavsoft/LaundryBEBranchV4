@@ -1,0 +1,1 @@
+import{S as n}from"./EntryFile-CdBuo5Hp.js";let t=()=>{let a=document.getElementById("BranchNameId");const c=localStorage.getItem("BranchName").replace("BranOrders","");a!==null&&(a.innerHTML=c)};const e=()=>{t()},l=()=>{n({inSuccessFunc:e})&&(e(),o())},o=()=>{document.querySelector(".revenue-card").querySelector("h6").innerHTML="16"};l();

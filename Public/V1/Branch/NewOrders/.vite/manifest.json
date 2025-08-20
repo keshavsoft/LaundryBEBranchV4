@@ -144,43 +144,43 @@
     ]
   },
   "HtmlFiles/CustomerV3.html": {
-    "file": "assets/CustomerV3-CFejnwAz.js",
+    "file": "assets/CustomerV3-C4Owvx9w.js",
     "name": "CustomerV3",
     "src": "HtmlFiles/CustomerV3.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ]
   },
   "HtmlFiles/CustomerV4.html": {
-    "file": "assets/CustomerV4-BbyQzS2h.js",
+    "file": "assets/CustomerV4-Dht-03XW.js",
     "name": "CustomerV4",
     "src": "HtmlFiles/CustomerV4.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ]
   },
   "HtmlFiles/CustomerV6.html": {
-    "file": "assets/CustomerV6-D7Qxp3Fb.js",
+    "file": "assets/CustomerV6-DRiubuMT.js",
     "name": "CustomerV6",
     "src": "HtmlFiles/CustomerV6.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ]
   },
   "HtmlFiles/CustomerV7.html": {
-    "file": "assets/CustomerV7-Cen0H5St.js",
+    "file": "assets/CustomerV7-B0umP-AF.js",
     "name": "CustomerV7",
     "src": "HtmlFiles/CustomerV7.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ]
   },
   "HtmlFiles/ExitOrderItems.html": {
@@ -200,13 +200,13 @@
     "src": "HtmlFiles/NewOrdersMenu.html"
   },
   "HtmlFiles/Settlement.html": {
-    "file": "assets/Settlement-DFMOMZxN.js",
+    "file": "assets/Settlement-CKu2Kr4U.js",
     "name": "Settlement",
     "src": "HtmlFiles/Settlement.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ],
     "css": [
       "assets/style-DURRzT10.css"
@@ -219,13 +219,13 @@
     ]
   },
   "HtmlFiles/SettlementV1.html": {
-    "file": "assets/SettlementV1-DqEMlRrc.js",
+    "file": "assets/SettlementV1-8xCAzDKl.js",
     "name": "SettlementV1",
     "src": "HtmlFiles/SettlementV1.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ],
     "css": [
       "assets/style-DURRzT10.css"
@@ -238,13 +238,13 @@
     ]
   },
   "HtmlFiles/SettlementV2.html": {
-    "file": "assets/SettlementV2-D1IW-5MB.js",
+    "file": "assets/SettlementV2-EJDHRCLV.js",
     "name": "SettlementV2",
     "src": "HtmlFiles/SettlementV2.html",
     "isEntry": true,
     "imports": [
       "_EntryFile-BphKqlzn.js",
-      "_Config-BIytIw62.js"
+      "_Config-BZgZOl7C.js"
     ],
     "css": [
       "assets/style-DURRzT10.css"
@@ -256,8 +256,8 @@
       "assets/profile-img-otNBDq-f.jpg"
     ]
   },
-  "_Config-BIytIw62.js": {
-    "file": "assets/Config-BIytIw62.js",
+  "_Config-BZgZOl7C.js": {
+    "file": "assets/Config-BZgZOl7C.js",
     "name": "Config"
   },
   "_EntryFile-BSuPd6me.js": {

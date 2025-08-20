@@ -1,0 +1,1 @@
+const e={SaveButtonId:{redirectToUrl:"/V1/Branch/BranchToday/HtmlFiles/QrRaiseAll.html"}},t="binV3",s="Masters",o="CustomerNames",r={CustomerOrderKey:"CustomerOrders",ItemNamesKey:"ItemNames",AddOnsKey:"AddOns"},a={urls:e,routePath:t,folderName:s,tableName:o,localStorageKeys:r};export{a as C};

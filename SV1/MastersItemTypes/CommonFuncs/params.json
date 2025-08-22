@@ -1,0 +1,1 @@
+{"TableName":"MastersItemTypes","DataPath":"Data","Columns":["ItemType"],"ColumnsWithSchema":[{"field":"ItemType","title":"ItemType","unique":true,"type":"text","isInput":true}]}

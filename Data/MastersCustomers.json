@@ -67373,5 +67373,38 @@
     "UuId": 5185,
     "pk": 5185,
     "DateTime": "2025-07-29T06:42:30.917Z"
+  },
+  {
+    "CustomerName": "hema",
+    "Mobile": "9182896380",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "BranchName": "KKD",
+    "pk": 5186
+  },
+  {
+    "CustomerName": "ww",
+    "Mobile": "1231231213",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "BranchName": "KKD",
+    "pk": 5187
+  },
+  {
+    "CustomerName": "Hema",
+    "Mobile": "1234123411",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "BranchName": "KKD",
+    "pk": 5188
   }
 ]

@@ -1,0 +1,1 @@
+GET http://localhost:3000/V1/MastersItems/SubTable/Read/AsIs/{RowIndex}/{KeyName}

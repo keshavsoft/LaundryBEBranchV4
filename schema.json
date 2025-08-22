@@ -1,1 +1,10 @@
-{"Tables":["MastersAddOns","MastersItemCategory"]}
+{
+    "Tables": [
+        "MastersAddOns",
+        "MastersItemCategory",
+        "MastersCustomers",
+        "MastersItems",
+        "MastersItemService",
+        "MastersItemTypes"
+    ]
+}

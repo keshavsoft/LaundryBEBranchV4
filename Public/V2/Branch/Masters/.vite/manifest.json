@@ -1,0 +1,214 @@
+{
+  "HtmlFiles/AddOnsShowAll.html": {
+    "file": "assets/AddOnsShowAll-Dv_PFwei.js",
+    "name": "AddOnsShowAll",
+    "src": "HtmlFiles/AddOnsShowAll.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/CustomersBranchWise.html": {
+    "file": "assets/CustomersBranchWise-61lz_Z7S.js",
+    "name": "CustomersBranchWise",
+    "src": "HtmlFiles/CustomersBranchWise.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js",
+      "_EntryFile-DM5kX0UO.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/CustomersCreate.html": {
+    "file": "assets/CustomersCreate-DZMrVTtB.js",
+    "name": "CustomersCreate",
+    "src": "HtmlFiles/CustomersCreate.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_EntryFile-DM5kX0UO.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/CustomersCreateNew.html": {
+    "file": "assets/CustomersCreateNew-CuDr1t81.js",
+    "name": "CustomersCreateNew",
+    "src": "HtmlFiles/CustomersCreateNew.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_EntryFile-DM5kX0UO.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/CustomersShowAll.html": {
+    "file": "assets/CustomersShowAll-BQFoRUPA.js",
+    "name": "CustomersShowAll",
+    "src": "HtmlFiles/CustomersShowAll.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js",
+      "_EntryFile-DM5kX0UO.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/ItemsCategoryFilter.html": {
+    "file": "assets/ItemsCategoryFilter-D2anHVmN.js",
+    "name": "ItemsCategoryFilter",
+    "src": "HtmlFiles/ItemsCategoryFilter.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/ItemsShowAll.html": {
+    "file": "assets/ItemsShowAll-CizQwEP_.js",
+    "name": "ItemsShowAll",
+    "src": "HtmlFiles/ItemsShowAll.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/ItemsWashTypeFilter.html": {
+    "file": "assets/ItemsWashTypeFilter-Q0hMxyy1.js",
+    "name": "ItemsWashTypeFilter",
+    "src": "HtmlFiles/ItemsWashTypeFilter.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_CommonConfig-DUQ1Jmam.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/index.html": {
+    "file": "assets/index-Hyr_nwlx.js",
+    "name": "index",
+    "src": "HtmlFiles/index.html",
+    "isEntry": true,
+    "imports": [
+      "_EntryFile-Cd6NxZjU.js",
+      "_EntryFile-DM5kX0UO.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/messages-1-Bywg8v70.jpg",
+      "assets/messages-2-udbIl-5X.jpg",
+      "assets/messages-3-DCvceO-X.jpg",
+      "assets/profile-img-otNBDq-f.jpg",
+      "assets/sample1 (1)-CLSp3hWF.png"
+    ]
+  },
+  "_CommonConfig-DUQ1Jmam.js": {
+    "file": "assets/CommonConfig-DUQ1Jmam.js",
+    "name": "CommonConfig"
+  },
+  "_EntryFile-!~{00a}~.js": {
+    "file": "assets/EntryFile-BUFKe9bL.css",
+    "src": "_EntryFile-!~{00a}~.js"
+  },
+  "_EntryFile-Cd6NxZjU.js": {
+    "file": "assets/EntryFile-Cd6NxZjU.js",
+    "name": "EntryFile",
+    "css": [
+      "assets/EntryFile-BUFKe9bL.css"
+    ]
+  },
+  "_EntryFile-DM5kX0UO.js": {
+    "file": "assets/EntryFile-DM5kX0UO.js",
+    "name": "EntryFile"
+  },
+  "assets/static/NiceAdmin/img/apple-touch-icon.png": {
+    "file": "assets/apple-touch-icon-Ou6JeAuw.png",
+    "src": "assets/static/NiceAdmin/img/apple-touch-icon.png"
+  },
+  "assets/static/NiceAdmin/img/favicon.png": {
+    "file": "assets/favicon-DcIgDO7J.png",
+    "src": "assets/static/NiceAdmin/img/favicon.png"
+  },
+  "assets/static/NiceAdmin/img/messages-1.jpg": {
+    "file": "assets/messages-1-Bywg8v70.jpg",
+    "src": "assets/static/NiceAdmin/img/messages-1.jpg"
+  },
+  "assets/static/NiceAdmin/img/messages-2.jpg": {
+    "file": "assets/messages-2-udbIl-5X.jpg",
+    "src": "assets/static/NiceAdmin/img/messages-2.jpg"
+  },
+  "assets/static/NiceAdmin/img/messages-3.jpg": {
+    "file": "assets/messages-3-DCvceO-X.jpg",
+    "src": "assets/static/NiceAdmin/img/messages-3.jpg"
+  },
+  "assets/static/NiceAdmin/img/profile-img.jpg": {
+    "file": "assets/profile-img-otNBDq-f.jpg",
+    "src": "assets/static/NiceAdmin/img/profile-img.jpg"
+  },
+  "assets/static/NiceAdmin/img/sample1 (1).png": {
+    "file": "assets/sample1 (1)-CLSp3hWF.png",
+    "src": "assets/static/NiceAdmin/img/sample1 (1).png"
+  }
+}

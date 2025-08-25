@@ -38,7 +38,7 @@ This project focuses on automating crudBD operations for JSON files, making it e
    ```
 4. Change Directory to LaundryBackEndV1 or Open the cloned folder, navigate to LaundryBackEndV1, and open the command prompt.
    ```
-    cd LaundryBackEndV1
+    cd LaundryBEBranchV4
    ```
 5. Install Node modules
    ```

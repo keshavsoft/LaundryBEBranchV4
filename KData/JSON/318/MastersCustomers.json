@@ -73,5 +73,17 @@
     "UuId": 6,
     "pk": 6,
     "DateTime": "2025-08-22T11:08:51.031Z"
+  },
+  {
+    "CustomerName": "prasad",
+    "Mobile": "2222222222",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "UuId": 7,
+    "pk": 7,
+    "DateTime": "2025-08-25T04:46:38.067Z"
   }
 ]

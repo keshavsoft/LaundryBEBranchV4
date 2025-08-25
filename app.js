@@ -1,3 +1,5 @@
+
+import { StartFunc as StartFuncFromMiddleware } from "./Token/MiddleWares/entryFile.js";
 import { router as routerForUtility } from "./Utility/routes.js";
 import { router as routerFromCommon } from "./Common/routes.js";
 import { router as routerFromCustom } from "./Custom/routes.js";
@@ -23,6 +25,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import { fileURLToPath } from 'url';
+import { router as routerFromV2 } from "./V2/routes.js";
+import { router as routerFromSV2 } from "./SV2/routes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 global.__basedir = path.dirname(__filename);
@@ -59,6 +63,8 @@ app.use('/Common', routerFromCommon);
 app.use('/Custom', routerFromCustom);
 app.use('/Login', routerFromLogin);
 app.use('/Cors', CommonCorsFunc, Cors);
+app.use("/V2", routerFromV2);
+app.use("/SV2", StartFuncFromMiddleware, routerFromSV2);
 
 // StartFuncKWSServer(server);
 

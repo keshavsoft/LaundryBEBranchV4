@@ -1188,5 +1188,65 @@
     "UuId": 22,
     "pk": 22,
     "DateTime": "2025-08-16T05:15:55.862Z"
+  },
+  {
+    "GenerateReference": {
+      "ReferncePk": "6"
+    },
+    "Category": "Men",
+    "ItemName": "Men PATTU SAREE CW",
+    "ItemType": "PATTU SAREE",
+    "Rate": "50",
+    "Pcs": "1",
+    "Total": 150,
+    "location": "Vizag",
+    "DeliveryDateTime": "2025-09-01",
+    "ItemService": "CW",
+    "AddOnArray": [
+      {
+        "AddOnService": "ROUGH",
+        "AddOnRate": 100,
+        "AddOnItemSerial": null
+      }
+    ],
+    "BookingData": {
+      "CustomerData": {
+        "CustomerName": "prasad",
+        "Mobile": "2222222222",
+        "DOB": "",
+        "GSTNumber": "",
+        "City": "",
+        "Occupation": "",
+        "CompanyName": "",
+        "UuId": 7,
+        "pk": 7,
+        "DateTime": "2025-08-25T04:46:38.067Z",
+        "CustomerMobile": "2222222222"
+      },
+      "OrderData": {
+        "BranchName": "KKD",
+        "Currentdateandtime": "2025-08-25T04:52:51.584Z"
+      },
+      "AddOnData": {},
+      "CheckOutData": {
+        "1": {
+          "RoundOff": 0,
+          "CashAmount": 177,
+          "CardAmount": 0,
+          "UPIAmount": 0,
+          "DiscountPer": 0,
+          "GstData": {
+            "DiscountAmount": 0,
+            "CGST": 13.5,
+            "SGST": 13.5
+          }
+        }
+      }
+    },
+    "OrderNumber": 6,
+    "OrderUuId": "2fea2d2d-fbc6-42be-3a46-b30b66b2937c",
+    "UuId": 23,
+    "pk": 23,
+    "DateTime": "2025-08-25T04:54:49.547Z"
   }
 ]

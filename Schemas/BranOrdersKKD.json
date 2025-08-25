@@ -1,0 +1,31 @@
+{
+    "tableName": "BranOrdersKKD",
+    "columns": [
+        {
+            "field": "ItemInOrder",
+            "title": "ItemInOrder",
+            "type": "object"
+        },
+        {
+            "field": "CustomerData",
+            "title": "CustomerData",
+            "type": "object"
+        },
+        {
+            "field": "OrderData",
+            "title": "OrderData",
+            "type": "object"
+        },
+        {
+            "field": "AddOn",
+            "title": "AddOn",
+            "type": "object"
+        },
+        {
+            "field": "CheckOutData",
+            "title": "CheckOutData",
+            "type": "object"
+        }
+    ],
+    "data": []
+}

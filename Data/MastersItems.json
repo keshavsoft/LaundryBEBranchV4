@@ -2,17 +2,6 @@
   {
     "Category": "Men",
     "ItemType": "SILK SHIRT",
-    "Service": "DW",
-    "ItemName": "Men SILK SHIRT DW",
-    "Pcs": "1",
-    "DryWashRate": "80",
-    "UuId": 5,
-    "pk": 5,
-    "DateTime": "2025-01-06T06:50:12.598Z"
-  },
-  {
-    "Category": "Men",
-    "ItemType": "SILK SHIRT",
     "Service": "PRS",
     "ItemName": "Men SILK SHIRT PRS",
     "Pcs": "1",
@@ -4750,5 +4739,50 @@
     "UuId": 440,
     "pk": 440,
     "DateTime": "2025-04-10T10:36:29.806Z"
+  },
+  {
+    "Category": "Others",
+    "ItemType": "NET TOP",
+    "Service": "CW",
+    "ItemName": "",
+    "Pcs": "1",
+    "DryWashRate": "40",
+    "pk": 442
+  },
+  {
+    "Category": "Men",
+    "ItemType": "SILK SHIRT",
+    "Service": "CW",
+    "ItemName": "",
+    "Pcs": "1",
+    "DryWashRate": "10",
+    "pk": 443
+  },
+  {
+    "Category": "Others",
+    "ItemType": "NET SAREE",
+    "Service": "CW",
+    "ItemName": "",
+    "Pcs": "2",
+    "DryWashRate": "2000",
+    "pk": 444
+  },
+  {
+    "Category": "Men",
+    "ItemType": "SHIRTE",
+    "Service": "PW",
+    "ItemName": "Men SHIRTE PW",
+    "Pcs": "1",
+    "DryWashRate": "200",
+    "pk": 446
+  },
+  {
+    "Category": "Kids",
+    "ItemType": "SHORT",
+    "Service": "DW",
+    "ItemName": "Kids SHORT DW",
+    "Pcs": "10",
+    "DryWashRate": "1000",
+    "pk": 447
   }
 ]

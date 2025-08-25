@@ -1,18 +1,5 @@
 [
   {
-    "CustomerName": "sharath",
-    "Mobile": "9676673574",
-    "DOB": "",
-    "GSTNumber": "Gst5566",
-    "City": "",
-    "Occupation": "",
-    "CompanyName": "",
-    "BranchName": "MVP",
-    "UuId": 2,
-    "pk": 2,
-    "DateTime": "2025-01-07T09:52:56.825Z"
-  },
-  {
     "CustomerName": "SREE",
     "Mobile": "8341177771",
     "DOB": "",
@@ -26,32 +13,7 @@
     "DateTime": "2025-01-07T09:54:03.191Z"
   },
   {
-    "CustomerName": "Pushpa",
-    "Mobile": "7997288455",
-    "DOB": "",
-    "GSTNumber": "GST827",
-    "City": "",
-    "Occupation": "",
-    "CompanyName": "",
-    "UuId": 4,
-    "pk": 4,
-    "DateTime": "2025-01-07T10:04:27.971Z"
-  },
-  {
-    "CustomerName": "NAGAMANI",
-    "Mobile": "7993195729",
-    "DOB": "",
-    "GSTNumber": "",
-    "City": "",
-    "Occupation": "",
-    "CompanyName": "",
-    "BranchName": "NGGOS",
-    "UuId": 5,
-    "pk": 5,
-    "DateTime": "2025-01-09T06:11:09.219Z"
-  },
-  {
-    "CustomerName": "Chandana",
+    "CustomerName": "BABU",
     "Mobile": "8499811895",
     "DOB": "",
     "GSTNumber": "",
@@ -67406,5 +67368,25 @@
     "CompanyName": "",
     "BranchName": "KKD",
     "pk": 5188
+  },
+  {
+    "CustomerName": "SHARATH",
+    "Mobile": "9676673574",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "pk": 5189
+  },
+  {
+    "CustomerName": "Chandana",
+    "Mobile": "2211122222",
+    "DOB": "",
+    "GSTNumber": "",
+    "City": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "pk": 5190
   }
 ]

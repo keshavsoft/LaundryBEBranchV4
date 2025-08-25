@@ -1,28 +1,7 @@
 [
   {
-    "AddOnService": "OIL STAINS",
-    "AddOnRate": "150",
-    "UuId": 3,
-    "pk": 3,
-    "DateTime": "2025-01-07T12:22:47.281Z"
-  },
-  {
-    "AddOnService": "BLOOD STAINS",
-    "AddOnRate": "100",
-    "UuId": 4,
-    "pk": 4,
-    "DateTime": "2025-01-07T12:25:44.748Z"
-  },
-  {
-    "AddOnService": "PIN HOLE",
-    "AddOnRate": "0",
-    "UuId": 5,
-    "pk": 5,
-    "DateTime": "2025-01-07T12:26:10.346Z"
-  },
-  {
-    "AddOnService": "ROUGH",
-    "AddOnRate": "0",
+    "AddOnService": "smooth",
+    "AddOnRate": "10",
     "UuId": 6,
     "pk": 6,
     "DateTime": "2025-01-07T12:26:25.588Z"
@@ -376,5 +355,22 @@
     "UuId": 56,
     "pk": 56,
     "DateTime": "2025-01-20T07:27:16.655Z"
+  },
+  {
+    "AddOnService": "sand marks",
+    "AddOnRate": "300",
+    "UuId": 57,
+    "pk": 57,
+    "DateTime": "2025-08-25T04:47:50.030Z"
+  },
+  {
+    "AddOnService": "sha",
+    "AddOnRate": "200",
+    "pk": 58
+  },
+  {
+    "AddOnService": "rough",
+    "AddOnRate": "0",
+    "pk": 59
   }
 ]

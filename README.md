@@ -34,23 +34,18 @@ This project focuses on automating crudBD operations for JSON files, making it e
 
 3. Clone the repository
    ```
-   
-   git clone https://github.com/keshavsoft/LaundryBackEndV1
-   
+   git clone https://github.com/keshavsoft/LaundryBEBranchV4
    ```
 4. Change Directory to LaundryBackEndV1 or Open the cloned folder, navigate to LaundryBackEndV1, and open the command prompt.
    ```
-   
     cd LaundryBackEndV1
-   
    ```
-5. Run the batch file (For Windows)
+5. Install Node modules
    ```
-   
-   fbd.bat
-   
+   npm install
    ```
-- node app
+6. Run the Application
+- ```node app```
 
 ### <a name="advancedinstallation"></a>## **advancedinstallation** 🚀
 

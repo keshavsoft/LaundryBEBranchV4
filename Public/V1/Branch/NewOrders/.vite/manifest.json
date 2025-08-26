@@ -108,7 +108,7 @@
     ]
   },
   "HtmlFiles/AddItemsWBtns.html": {
-    "file": "assets/AddItemsWBtns-CCNWFAlC.js",
+    "file": "assets/AddItemsWBtns-BDS9cxSY.js",
     "name": "AddItemsWBtns",
     "src": "HtmlFiles/AddItemsWBtns.html",
     "isEntry": true,
@@ -200,7 +200,7 @@
     "src": "HtmlFiles/NewOrdersMenu.html"
   },
   "HtmlFiles/Settlement.html": {
-    "file": "assets/Settlement-CKu2Kr4U.js",
+    "file": "assets/Settlement-Db6v-Qva.js",
     "name": "Settlement",
     "src": "HtmlFiles/Settlement.html",
     "isEntry": true,
@@ -260,16 +260,16 @@
     "file": "assets/Config-BZgZOl7C.js",
     "name": "Config"
   },
-  "_EntryFile-BSuPd6me.js": {
-    "file": "assets/EntryFile-BSuPd6me.js",
+  "_EntryFile-BphKqlzn.js": {
+    "file": "assets/EntryFile-BphKqlzn.js",
+    "name": "EntryFile"
+  },
+  "_EntryFile-DlsbKOHm.js": {
+    "file": "assets/EntryFile-DlsbKOHm.js",
     "name": "EntryFile",
     "imports": [
       "_EntryFile-BphKqlzn.js"
     ]
-  },
-  "_EntryFile-BphKqlzn.js": {
-    "file": "assets/EntryFile-BphKqlzn.js",
-    "name": "EntryFile"
   },
   "_StartFunc-UjjBljXR.js": {
     "file": "assets/StartFunc-UjjBljXR.js",

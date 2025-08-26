@@ -2,8 +2,8 @@
     "tableName": "BranOrdersKKD",
     "columns": [
         {
-            "field": "ItemInOrder",
-            "title": "ItemInOrder",
+            "field": "ItemsInOrder",
+            "title": "ItemsInOrder",
             "type": "object"
         },
         {
@@ -17,8 +17,8 @@
             "type": "object"
         },
         {
-            "field": "AddOn",
-            "title": "AddOn",
+            "field": "AddOnData",
+            "title": "AddOnData",
             "type": "object"
         },
         {

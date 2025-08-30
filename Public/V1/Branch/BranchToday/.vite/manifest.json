@@ -9,7 +9,7 @@
     ]
   },
   "HtmlFiles/BillPrint.html": {
-    "file": "assets/BillPrint-CQvCcxxo.js",
+    "file": "assets/BillPrint-aasYdN4P.js",
     "name": "BillPrint",
     "src": "HtmlFiles/BillPrint.html",
     "isEntry": true,
@@ -37,7 +37,7 @@
     ]
   },
   "HtmlFiles/DeleteOrder.html": {
-    "file": "assets/DeleteOrder-jIonENIi.js",
+    "file": "assets/DeleteOrder-BIgDSPZC.js",
     "name": "DeleteOrder",
     "src": "HtmlFiles/DeleteOrder.html",
     "isEntry": true,
@@ -94,7 +94,7 @@
     ]
   },
   "HtmlFiles/PrintQr.html": {
-    "file": "assets/PrintQr-K1pVJssj.js",
+    "file": "assets/PrintQr-Dc2IyAW1.js",
     "name": "PrintQr",
     "src": "HtmlFiles/PrintQr.html",
     "isEntry": true,
@@ -113,7 +113,7 @@
     ]
   },
   "HtmlFiles/PrintQrAndBill.html": {
-    "file": "assets/PrintQrAndBill-DpcFSPos.js",
+    "file": "assets/PrintQrAndBill-Bl4DzWAQ.js",
     "name": "PrintQrAndBill",
     "src": "HtmlFiles/PrintQrAndBill.html",
     "isEntry": true,
@@ -132,7 +132,7 @@
     ]
   },
   "HtmlFiles/PrintQrOnly.html": {
-    "file": "assets/PrintQrOnly-BC5wMxkJ.js",
+    "file": "assets/PrintQrOnly-CN24wn3S.js",
     "name": "PrintQrOnly",
     "src": "HtmlFiles/PrintQrOnly.html",
     "isEntry": true,
@@ -150,7 +150,7 @@
     ]
   },
   "HtmlFiles/PrintQrV1.html": {
-    "file": "assets/PrintQrV1-CrvPZ-lg.js",
+    "file": "assets/PrintQrV1-BXZKTDIg.js",
     "name": "PrintQrV1",
     "src": "HtmlFiles/PrintQrV1.html",
     "isEntry": true,
@@ -168,7 +168,7 @@
     ]
   },
   "HtmlFiles/PrintQrV2.html": {
-    "file": "assets/PrintQrV2-CPgTx2J3.js",
+    "file": "assets/PrintQrV2-i8v46oko.js",
     "name": "PrintQrV2",
     "src": "HtmlFiles/PrintQrV2.html",
     "isEntry": true,
@@ -186,7 +186,7 @@
     ]
   },
   "HtmlFiles/QrPending.html": {
-    "file": "assets/QrPending-A53BWDFX.js",
+    "file": "assets/QrPending-C2TEdkvw.js",
     "name": "QrPending",
     "src": "HtmlFiles/QrPending.html",
     "isEntry": true,
@@ -205,7 +205,7 @@
     ]
   },
   "HtmlFiles/QrRaiseAll.html": {
-    "file": "assets/QrRaiseAll-Ck1r57e3.js",
+    "file": "assets/QrRaiseAll-B9qbAdoY.js",
     "name": "QrRaiseAll",
     "src": "HtmlFiles/QrRaiseAll.html",
     "isEntry": true,
@@ -224,7 +224,7 @@
     ]
   },
   "HtmlFiles/QrRaised.html": {
-    "file": "assets/QrRaised-BFA4DfOk.js",
+    "file": "assets/QrRaised-CTa6M-Y-.js",
     "name": "QrRaised",
     "src": "HtmlFiles/QrRaised.html",
     "isEntry": true,

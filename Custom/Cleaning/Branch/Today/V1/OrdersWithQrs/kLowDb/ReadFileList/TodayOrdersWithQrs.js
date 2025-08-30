@@ -12,18 +12,37 @@ let StartFunc = ({ inBranch }) => {
 
     let today = new Date().toLocaleDateString('en-GB');
 
-    let LocalFilterBranchData = db.data.filter(e => {
-        return new Date(e.OrderData.Currentdateandtime).toLocaleDateString('en-GB') === today;
-    });
+    let LocalFilterBranchData = [];
+
+    if (Array.isArray(db.data)) {
+        LocalFilterBranchData = db.data.filter(e => {
+            let rawDate = e?.OrderData?.Currentdateandtime || e?.ServerInsertedTimeStamp;
+
+            if (!rawDate) {
+                return false;
+            }
+
+            let parsedDate = new Date(rawDate);
+
+            if (isNaN(parsedDate)) {
+                return false;
+            }
+
+            let formattedDate = parsedDate.toLocaleDateString('en-GB');
+
+            return formattedDate === today;
+        });
+    } 
 
     let jVarLocalTransformedData = jFLocalInsertAggValues({ inData: LocalFilterBranchData });
-    let LocalInsertAggValues = jFLocalInsertQrCodeData({ 
-        inBranchName: modifiedBranch, 
-        inOrderData: jVarLocalTransformedData, 
-        inQrCodeData: Qrdb 
+    let LocalInsertAggValues = jFLocalInsertQrCodeData({
+        inBranchName: modifiedBranch,
+        inOrderData: jVarLocalTransformedData,
+        inQrCodeData: Qrdb
     });
-    
+
     let LocalArrayReverseData = LocalInsertAggValues.slice().reverse();
+
     return LocalArrayReverseData;
 };
 
@@ -33,23 +52,25 @@ let jFLocalInsertAggValues = ({ inData }) => {
         element[1].AggValues = {};
         element[1].IsSettled = false;
         element[1].IsItems = false;
-        element[1].TimeSpan = TimeSpan(element[1].DateTime);
+        element[1].TimeSpan = TimeSpan(element[1].DateTime || element[1].ServerInsertedTimeStamp);
 
         if (Object.values(element[1].ItemsInOrder).map(p => p.Pcs).reduce((acc, val) => acc + parseInt(val), 0) > 0) {
             element[1].IsItems = true;
-        };
+        }
 
-        element[1].AggValues.ItemDetails = `${Object.keys(element[1].ItemsInOrder).length} / ${Object.values(element[1].ItemsInOrder).map(p => p.Pcs).reduce((acc, val) => acc + parseInt(val), 0)}`;
+        element[1].AggValues.ItemDetails =
+            `${Object.keys(element[1].ItemsInOrder).length} / ${Object.values(element[1].ItemsInOrder).map(p => p.Pcs).reduce((acc, val) => acc + parseInt(val), 0)}`;
 
         element[1].AggValues.SettlementAmount = "";
         if (Object.values(element[1].CheckOutData)[0]) {
-            element[1].AggValues.SettlementAmount = Object.values(element[1].CheckOutData)[0].CardAmount 
-                + Object.values(element[1].CheckOutData)[0].CashAmount 
+            element[1].AggValues.SettlementAmount =
+                Object.values(element[1].CheckOutData)[0].CardAmount
+                + Object.values(element[1].CheckOutData)[0].CashAmount
                 + Object.values(element[1].CheckOutData)[0].UPIAmount;
-        };
+        }
         if (Object.keys(element[1].CheckOutData).length > 0) {
             element[1].IsSettled = true;
-        };
+        }
 
         delete element[1].ItemsInOrder;
         delete element[1].AddOnData;
@@ -69,9 +90,9 @@ let jFLocalInsertQrCodeData = ({ inBranchName, inOrderData, inQrCodeData }) => {
     inOrderData.forEach(element => {
         element.IsQrCodesRaised = false;
         element.TotalItems = 0;
-        
+
         if (Array.isArray(inQrCodeData)) {
-            let FilterCheck = inQrCodeData.filter(ele => 
+            let FilterCheck = inQrCodeData.filter(ele =>
                 ele.OrderNumber == element.pk && ele.BookingData.OrderData.BranchName == LocalBranchName
             );
             if (FilterCheck.length > 0) {

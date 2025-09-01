@@ -1,5 +1,15 @@
 {
     "Tables": [
-        "BranOrdersKKD"
+        "BranOrdersKKD",
+        "TasksTable",
+        "TokenTable",
+        "UsersTable",
+        "BranOrdersKKD",
+        "MastersAddOns",
+        "MastersCustomers",
+        "MastersItemCategory",
+        "MastersItems",
+        "MastersItemService",
+        "MastersItemTypes"
     ]
 }

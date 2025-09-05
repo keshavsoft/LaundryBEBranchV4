@@ -1,1 +1,6 @@
-GET http://localhost:3000/V4/BranOrdersKKD/GroupBy/SetSingleColumn/{ColumnName}
+POST http://localhost:3000/V4/BranOrdersKKD/GroupBy/SetSingleColumn
+Content-Type: application/json
+
+[
+	{ColumnsName}
+]

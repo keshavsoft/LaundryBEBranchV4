@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV4/TokenTable/GroupBy/SingleColumn/{ColumnName}
+GET http://localhost:3000/SV4/TokenTable/GroupBy/SingleColumn/{GroupByColumnName}

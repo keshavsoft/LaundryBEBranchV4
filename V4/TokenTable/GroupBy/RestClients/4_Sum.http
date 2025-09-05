@@ -1,1 +1,6 @@
-GET http://localhost:3000/V4/TokenTable/GroupBy/Sum/{ColumnName}
+POST http://localhost:3000/V4/TokenTable/GroupBy/Sum
+Content-Type: application/json
+
+[
+	{ColumnsName}
+]

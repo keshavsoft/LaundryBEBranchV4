@@ -1,1 +1,1 @@
-GET http://localhost:3000/V4/MastersItemTypes/GroupBy/SingleColumn/{ColumnName}
+GET http://localhost:3000/V4/MastersItemTypes/GroupBy/SingleColumn/{GroupByColumnName}

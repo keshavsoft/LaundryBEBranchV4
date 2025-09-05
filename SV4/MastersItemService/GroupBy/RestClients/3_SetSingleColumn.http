@@ -1,1 +1,6 @@
-GET http://localhost:3000/SV4/MastersItemService/GroupBy/SetSingleColumn/{ColumnName}
+POST http://localhost:3000/SV4/MastersItemService/GroupBy/SetSingleColumn
+Content-Type: application/json
+
+[
+	{ColumnsName}
+]

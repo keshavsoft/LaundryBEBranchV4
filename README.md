@@ -273,3 +273,9 @@ binV5Secured config changed
 - 0.0.4
 
 qrcodes generated with new ui in v2
+
+- 1.0.1
+
+generateBranchUi perfect
+
+

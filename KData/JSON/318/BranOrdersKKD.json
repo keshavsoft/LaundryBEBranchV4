@@ -348,5 +348,80 @@
     },
     "pk": 9,
     "ServerInsertedTimeStamp": "2025-08-28T12:38:03.782Z"
+  },
+  {
+    "ItemsInOrder": {
+      "1": {
+        "Category": "Men",
+        "ItemName": "Men SHIRTE DW",
+        "ItemType": "SHIRTE",
+        "Rate": "60",
+        "Pcs": "1",
+        "Total": 60,
+        "location": "Vizag",
+        "DeliveryDateTime": "2025-10-03",
+        "ItemService": "DW",
+        "AddOnArray": [],
+        "pk": 1,
+        "Fk": "10"
+      }
+    },
+    "CustomerData": {
+      "Mobile": "9848163021",
+      "UserName": null,
+      "CustomerName": "Keshav",
+      "DOB": "",
+      "GSTNumber": "",
+      "City": "",
+      "Occupation": ""
+    },
+    "OrderData": {},
+    "AddOnData": {},
+    "CheckOutData": {
+      "1": {
+        "RoundOff": 0.2,
+        "CashAmount": 71,
+        "CardAmount": 0,
+        "UPIAmount": 0,
+        "DiscountPer": 0,
+        "GstData": {
+          "DiscountAmount": 0,
+          "CGST": 5.4,
+          "SGST": 5.4
+        },
+        "pk": 1,
+        "Fk": "10"
+      },
+      "2": {
+        "RoundOff": 0.2,
+        "CashAmount": 71,
+        "CardAmount": 0,
+        "UPIAmount": 0,
+        "DiscountPer": 0,
+        "GstData": {
+          "DiscountAmount": 0,
+          "CGST": 5.4,
+          "SGST": 5.4
+        },
+        "pk": 2,
+        "Fk": "10"
+      },
+      "3": {
+        "RoundOff": 0.2,
+        "CashAmount": 71,
+        "CardAmount": 0,
+        "UPIAmount": 0,
+        "DiscountPer": 0,
+        "GstData": {
+          "DiscountAmount": 0,
+          "CGST": 5.4,
+          "SGST": 5.4
+        },
+        "pk": 3,
+        "Fk": "10"
+      }
+    },
+    "pk": 10,
+    "ServerInsertedTimeStamp": "2025-09-26T07:55:56.914Z"
   }
 ]

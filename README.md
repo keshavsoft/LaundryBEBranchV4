@@ -278,4 +278,7 @@ qrcodes generated with new ui in v2
 
 generateBranchUi perfect
 
+- 1.0.2
+
+batch files v2 started
 

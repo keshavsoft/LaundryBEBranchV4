@@ -286,4 +286,7 @@ batch files v2 started
 
 forLogin bat changed
 
+- 1.0.4
+
+V3 batch files perfect
 

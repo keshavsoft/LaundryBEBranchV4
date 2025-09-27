@@ -5,6 +5,7 @@ import { router as routerFromCommon } from "./Common/routes.js";
 import { router as routerFromCustom } from "./Custom/routes.js";
 import { router as routerFromLogin } from "./Login/routes.js";
 import { router as routerFromV1 } from "./V1/routes.js";
+import { router as LaundryV1 } from "./LaundryV1/routes.js";
 
 import { router as Cors } from "./Cors/routes.js";
 
@@ -77,6 +78,7 @@ app.use("/V4", routerFromV4);
 app.use("/SV4", StartFuncFromMiddleware, routerFromSV4);
 app.use("/Secret", routerFromSecret);
 app.use("/Users", routerFromUsers);
+app.use("/LaundryV1", LaundryV1);
 // StartFuncKWSServer(server);
 
 function normalizePort(val) {

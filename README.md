@@ -290,3 +290,7 @@ forLogin bat changed
 
 V3 batch files perfect
 
+- 1.0.5
+
+V4 batch files perfect with version generate in public
+

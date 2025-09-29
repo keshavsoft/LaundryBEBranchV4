@@ -18,7 +18,7 @@ const StartFunc = ({inUserName, inPassword}) => {
       const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
       let LocalRemoveUndefined = data.find(element => {
-        return element.UserName === LocalUserName && element.Password === LocalPassword
+        return element.UserName === LocalUserName && element.Password == LocalPassword
       });
 
       if (!LocalRemoveUndefined) {

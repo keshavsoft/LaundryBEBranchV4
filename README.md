@@ -294,3 +294,6 @@ V3 batch files perfect
 
 V4 batch files perfect with version generate in public
 
+- 1.0.6
+
+public V4 added

@@ -5,6 +5,7 @@ echo Next Version: %NEXT_VERSION%
 
 SET CommonRepoName=LaundryUiV2
 SET CommonFolderName=NewOrders
+SET CommonBranchToday=BranchToday
 
 if not exist "..\%CommonRepoName%\" (
     echo %CommonRepoName% folder not found. Cloning...
@@ -22,8 +23,10 @@ cd ..\%CommonRepoName%
 git pull
 
 call npm run %CommonFolderName%
+call npm run %CommonBranchToday%
 
-xcopy .\publicDir\%CommonFolderName% ..\LaundryBEBranchV4\public\%NEXT_VERSION%\%CommonFolderName% /h /i /c /k /e /r /y
+xcopy .\publicDir\%CommonFolderName% ..\LaundryBEBranchV4\public\%NEXT_VERSION%\Branch\%CommonFolderName% /h /i /c /k /e /r /y
+xcopy .\publicDir\%CommonBranchToday% ..\LaundryBEBranchV4\public\%NEXT_VERSION%\Branch\%CommonBranchToday% /h /i /c /k /e /r /y
 
 cd ..\LaundryBEBranchV4
 

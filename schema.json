@@ -1,7 +1,6 @@
 {
     "Tables": [
         "BranOrdersKKD",
-        "TasksTable",
         "TokenTable",
         "UsersTable",
         "BranOrdersKKD",

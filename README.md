@@ -301,3 +301,7 @@ public V4 added
 - 1.0.7
 
 V4 login linked
+
+- 1.0.8
+
+schema altered

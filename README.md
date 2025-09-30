@@ -305,3 +305,7 @@ V4 login linked
 - 1.0.8
 
 schema altered
+
+- 1.0.9
+
+latest version added

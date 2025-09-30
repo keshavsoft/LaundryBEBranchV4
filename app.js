@@ -34,6 +34,8 @@ import { router as routerFromV4 } from "./V4/routes.js";
 import { router as routerFromSV4 } from "./SV4/routes.js";
 import { router as routerFromSecret } from "./Secret/routes.js";
 import { router as routerFromUsers } from "./Users/routes.js";
+import { router as routerFromV5 } from "./V5/routes.js";
+import { router as routerFromSV5 } from "./SV5/routes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 global.__basedir = path.dirname(__filename);
@@ -79,6 +81,8 @@ app.use("/SV4", StartFuncFromMiddleware, routerFromSV4);
 app.use("/Secret", routerFromSecret);
 app.use("/Users", routerFromUsers);
 app.use("/LaundryV1", LaundryV1);
+app.use("/V5", routerFromV5);
+app.use("/SV5", StartFuncFromMiddleware, routerFromSV5);
 // StartFuncKWSServer(server);
 
 function normalizePort(val) {

@@ -470,5 +470,55 @@
     },
     "pk": 11,
     "ServerInsertedTimeStamp": "2025-09-27T05:05:06.295Z"
+  },
+  {
+    "ItemsInOrder": {
+      "1": {
+        "Category": "Men",
+        "ItemName": "Men SHIRTE DW",
+        "ItemType": "SHIRTE",
+        "Rate": "60",
+        "Pcs": "1",
+        "Total": 60,
+        "location": "Vizag",
+        "DeliveryDateTime": "2025-10-07",
+        "ItemService": "DW",
+        "AddOnArray": [],
+        "pk": 1,
+        "Fk": "12"
+      }
+    },
+    "CustomerData": {
+      "Mobile": "9848163021",
+      "UserName": null,
+      "CustomerName": "Keshav",
+      "DOB": "",
+      "GSTNumber": "",
+      "City": "",
+      "Occupation": ""
+    },
+    "OrderData": {
+      "BranchName": "KKD",
+      "Mobile": "9848163021"
+    },
+    "AddOnData": {},
+    "CheckOutData": {
+      "1": {
+        "RoundOff": 0.2,
+        "CashAmount": 71,
+        "CardAmount": 0,
+        "UPIAmount": 0,
+        "DiscountPer": 0,
+        "GstData": {
+          "DiscountAmount": 0,
+          "CGST": 5.4,
+          "SGST": 5.4
+        },
+        "pk": 1,
+        "Fk": "12"
+      }
+    },
+    "pk": 12,
+    "ServerInsertedTimeStamp": "2025-09-30T05:48:37.324Z"
   }
 ]

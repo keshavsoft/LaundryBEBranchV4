@@ -297,3 +297,7 @@ V4 batch files perfect with version generate in public
 - 1.0.6
 
 public V4 added
+
+- 1.0.7
+
+V4 login linked

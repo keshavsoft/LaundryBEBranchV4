@@ -16,8 +16,10 @@ let postFilterDataFromBodyFunc = (req, res) => {
     res.status(409).send(LocalFromRepo.KTF);
     return;
   }
+  let inObject = {};
+  inObject.BranchName = LocalFromRepo?.BranchName;
 
-  const jVarLocalToken = StartFuncFromCreateToken({ inObject: "Keshav" });
+  const jVarLocalToken = StartFuncFromCreateToken(inObject);
 
   res.set("Content-Type", "text/plain");
   res

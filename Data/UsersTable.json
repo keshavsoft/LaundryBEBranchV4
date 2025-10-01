@@ -1,1 +1,12 @@
-[{"UserName":"Keshav","Password":9848163021}]
+[
+    {
+        "UserName": "KKD",
+        "Password": 9848163021,
+        "Branch": "BranOrdersKKD"
+    },
+    {
+        "UserName": "Ongole",
+        "Password": 9848163021,
+        "Branch": "BranOrdersOngole"
+    }
+]

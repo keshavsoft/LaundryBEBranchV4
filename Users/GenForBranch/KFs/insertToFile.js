@@ -2,7 +2,7 @@ import fs from "fs";
 
 import ParamsJson from './params.json' with {type: 'json'};
 
-const StartFunc = ({inUserName, inPassword}) => {
+const StartFunc = ({ inUserName, inPassword }) => {
   const LocalFileName = "UsersTable";
   const LocalDataPath = ParamsJson.DataPath;
 
@@ -26,6 +26,7 @@ const StartFunc = ({inUserName, inPassword}) => {
       };
 
       LocalReturnObject.KTF = true;
+      LocalReturnObject.BranchName = LocalRemoveUndefined?.Branch;
       return LocalReturnObject;
     } else {
       LocalReturnObject.KReason = `File ${LocalFileName}.json does not exist in ${LocalDataPath} folder.`;

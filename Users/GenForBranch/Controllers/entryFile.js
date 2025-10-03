@@ -16,13 +16,13 @@ let postFilterDataFromBodyFunc = (req, res) => {
     res.status(409).send(LocalFromRepo.KTF);
     return;
   }
-
+  // inObject.BranchName = LocalFromRepo?.BranchName;
   const jVarLocalToken = StartFuncFromCreateToken({ inObject: "Keshav" });
 
   res.set("Content-Type", "text/plain");
   res
     .cookie("KSToken", jVarLocalToken, { maxAge: 900000, httpOnly: false })
-    .end(jVarLocalToken);
+    .send(LocalFromRepo)
 };
 
 export { postFilterDataFromBodyFunc };
